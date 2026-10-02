@@ -1,0 +1,4 @@
+In today’s digital era, artificial intelligence (AI) presents itself as a powerful tool with both positive and negative implications. On one hand, AI streamlines tasks, offers personalized recommendations and enhances decision-making. On the other hand, it can perpetuate bias, compromise privacy, and potentially replace jobs, impacting the economy. It is crucial to approach AI development with care, considering its potential consequences. That’s why the upcoming CamTech Seminar AI Series 4 will focus on “Embracing compassionate AI”. Esteemed speakers will explore ethical AI usage, policy development, responsible AI development and deployment, and mindful education. Join us as we navigate the ethical dimensions of AI and strive for a compassionate and beneficial AI future.
+
+---
+Source: https://camtech.edu.kh/ai-seminar-series-4/

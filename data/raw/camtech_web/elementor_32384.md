@@ -1,0 +1,4 @@
+Congratulations to TamDan-តាមដាន on winning the 1st runner-up out of 16 startup teams from 6 universities at Demo Day, which was part of the UNIIC, held at the Asia Pacific University of Technology and Innovation, Kuala Lumpur, Malaysia. TamDan is a revolutionary effective tracking method powered by an automated AI solution that aims to solve parents’ problems with early childhood education. The platform provides real-time updates, performance analysis, and digital reports. Trash to Cash (T2C) is a smart waste management solution that helps turn waste into money while protecting the environment. T2C enables users to separate their waste easily and get rewarded for it. T2C also ensures that all waste is recycled, and that efficient waste management operations and sustainable practices are in place.
+
+---
+Source: https://camtech.edu.kh/elementor-32384/

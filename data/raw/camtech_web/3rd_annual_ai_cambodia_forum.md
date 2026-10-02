@@ -1,0 +1,4 @@
+The forum aims to foster a comprehensive understanding of AI governance within the Cambodian context, addressing key facets such as ethical considerations in the public sector, the intersection of data privacy and business innovation, regulatory landscapes that will shape AI development, and the societal impact of AI. In the initial segment of the forum, our distinguished keynote speakers focus on the ethical implementation of AI in both public and private sectors. Following that, in the subsequent section, our panelists will tackle the societal ramifications of AI and the importance of regulating AI to promote its beneficial impact on our society. The forum will bring together key stakeholders from academia, industry, and government officials to engage in meaningful discussions, knowledge sharing, and collaborative problem-solving.
+
+---
+Source: https://camtech.edu.kh/3rd-annual-ai-cambodia-forum/

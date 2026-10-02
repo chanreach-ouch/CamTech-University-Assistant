@@ -1,0 +1,10 @@
+On November 30, 2021, from 5:30 to 7:00 pm, undergraduate students of the University of Technology and Science of Cambodia (CamTech) led by Mr. Mut Somoeun, an expert in “Khmer Culture and History” visited the Bokator Khmeng Wat Than Club, branch II located in Borey Sony, Sangkat Steung Meanchey, Khan Meanchey, Phnom Penh. The purpose of this study visit is to deepen the understanding of a lesson on Khmer traditional martial arts in the subject “Khmer Studies and Introduction to History” as well as to see the greatness of Khmer traditional martial arts “Bokator”.
+
+In an interview with us, Mr. Athan Sena Sdech Hanuman, who is the instructor there, said that Khmer Bokator was created by Khmer people a long time ago. The instructor added that the word “Bokator” is sometimes called “Labokator”. According to Samdech Chuon Nath’s dictionary “Labokator” means a short stick to hold the forearm as a protection against a long stick, but these two terms do not seem to be in common use today. Not only did our team get the opportunity to gain a better understanding of the history, meaning, characteristics, and benefits of practicing and using Khmer traditional martial arts “Bokator”, we also got to see the performance of Bokator, and our students got to participate in practical Bokator practice in a pleasant atmosphere.
+
+This is the key message from Athan Sena Sdech Hanuman to Cambodian people, especially the youth, “Please support the traditional Khmer martial art “Bokator” and join training together for physical and mental health, self-defense, and national defense as well as preservation of this martial art.”
+
+Camtech University would like to thank Mr. Athan, the Founder and General Manager of Bokator Khmeng Wat Than Club, for allowing us to have a study visit at his club. This visit really provided our students with hands-on experience in seeing with their own eyes and practicing what they have studied in class. We would also like to support and participate in preserving this precious heritage of ancient Khmer martial arts.
+
+---
+Source: https://camtech.edu.kh/kh/study-visit-to-bokator-khmeng-wat-than-club/

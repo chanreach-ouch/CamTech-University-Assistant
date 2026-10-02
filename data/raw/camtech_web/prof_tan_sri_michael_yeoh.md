@@ -1,0 +1,6 @@
+Visiting Professor
+
+Tan Sri Michael Yeoh is a business leader, social entrepreneur and thought leader. He is a co-founder and President of the World Digital Chamber and the KSI Strategic Institute for Asia Pacific, a globally ranked Think Tank. He is an Executive Council Member of the United Nations ESCAP Sustainable Business Network and the ASEAN High Level Task Force on Connectivity. He also sits on the Corporate Boards of several public companies involved with private equity, investments, property development, food and agriculture. He was a Principal Adviser to a Banking Group and has sat on Boards of companies involved in Education, Healthcare, Venture Capital and Financial Services. He holds a Doctor of Laws (horasis causa) from the University of Nottingham and is a Visiting Professor in Entrepreneurship at the Cambodia University of Technology. He is also International Advisor to the Asia Pacific ASEAN Green Deal Center at the Hang Seng University, Hong Kong. He is Founding Chairman of the ASEAN Economic Club and the ASEAN Leadership and Partnership Forum. In addition, he is Chairman of the BRICS-ASEAN Chamber of Commerce Advisory Board.
+
+---
+Source: https://camtech.edu.kh/prof-tan-sri-michael-yeoh/

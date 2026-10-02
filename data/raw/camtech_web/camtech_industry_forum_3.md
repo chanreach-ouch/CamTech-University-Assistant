@@ -1,0 +1,6 @@
+CamTech University is proud to host its inaugural Industrial Placement Fair on November 8th, 2024. The event is designed to provide students with valuable career opportunities, including internships and full-time positions at partner companies. Running alongside this event is the annual Industry Forum, which will bring together key stakeholders to offer insights that will shape the development and improvement of the university’s curriculum. Together, these events aim to strengthen the connection between industry and academia, promote research and innovation, and improve the employability of CamTech graduates.
+
+The Industry Forum will feature a diverse range of stakeholders, including academic experts, senior industry leaders, government representatives, human resource professionals, and curriculum developers. Meanwhile, the Industrial Placement Fair will showcase 10 selected companies from CamTech’s partner network, offering students the opportunity to explore internships and full-time roles. The event is open to all CamTech students, with priority given to those in their third year, as they prepare for internships and full-time employment.
+
+---
+Source: https://camtech.edu.kh/camtech-industry-forum-3/

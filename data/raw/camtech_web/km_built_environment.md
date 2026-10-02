@@ -1,0 +1,4 @@
+Built Environment FACULTY OF SUSTAINABLE BUILT ENVIRONMENT At CamTech, we firmly believe that the sustainability of buildings and their surroundings constitutes the core of human-made environment. The Faculty of Sustainable Built Environment offers six majors to choose from. Learning Objectives To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project Essential knowledge for those interested in managing their own business contact Mr. LyBunseang CheaLecturer and Head of Architecture DepartmentAdmissions@camtech.edu.kh +855 78 212 181 (Telegram) +855 86 212 181 (Telegram) Department of Architecture and Interior Design Architecture Interior Design Do you need more information? Contact us anytime.
+
+---
+Source: https://camtech.edu.kh/km/built-environment/

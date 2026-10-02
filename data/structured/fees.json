@@ -1,0 +1,11 @@
+{
+    "tuition": [
+        {"major": "Cyber Security", "fee_per_year": 4000, "currency": "USD"},
+        {"major": "Architecture", "fee_per_year": 4500, "currency": "USD"},
+        {"major": "Software Engineering", "fee_per_year": 4000, "currency": "USD"}
+    ],
+    "scholarships": [
+        {"type": "STEM Women", "coverage_percentage": 100, "conditions": "Maintain 3.0 GPA"},
+        {"type": "Merit", "coverage_percentage": 50, "conditions": "Top 10% in entrance exam"}
+    ]
+}

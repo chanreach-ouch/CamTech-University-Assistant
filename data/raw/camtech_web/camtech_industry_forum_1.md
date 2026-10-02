@@ -1,0 +1,6 @@
+Cambodia University of Technology and Science (CamTech) has inaugurated the first-of-its-kind CamTech-Industry Forum on Friday, April 8 2022 to provide a platform for the representatives from the government, industries, and civil societies along with academia to discuss the issue of talent demand and supply the industries are facing, and that is the government’s top priority. The forum will also enter into a technical consultation to gather inputs and suggestions for the co-creation of the university’s curriculum to bridge the talent gap and ensure quality of education so that the university would help generate adept and job-ready labors to meet the needs of both public and private sectors.
+
+The first CamTech-Industry Forum will also feature a formal ceremony for signing of the Memorandum of Understanding (MoU) between CamTech and its major industrial partners namely Canadia Bank, Chip Mong Group, ISI Group, and Mega Asset Management. Such collaboration aims to push for talent development, innovation, and knowledge mobilization including knowledge production, dissemination, exchange, transfers, and co-creation between CamTech and industries.
+
+---
+Source: https://camtech.edu.kh/camtech-industry-forum-1/

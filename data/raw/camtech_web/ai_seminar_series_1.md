@@ -1,0 +1,4 @@
+In Industry 4.0, technological breakthroughs for mass production and automation including Artificial Intelligence, big data analytics, cybersecurity, immersive technology, advanced robotics. Internet of Things, block-chain and 3D printing are changing the way we work and live. With interoperable cloud computing, ABC is playing key roles for safety, stability, performance, reliability, robustness, cost optimization, and efficiency, in areas such as energy, transportation, construction, medical and healthcare, defense. manufacturing and agriculture. It is reported that at least 50% of the tasks (40% of the current occupations)1 are at high risk and 65% of the jobs the next generation will engage in 2030 do not yet exist. This demands a new skill set of the workforce for sustainable economic growth of Cambodia in the competitive market.
+
+---
+Source: https://camtech.edu.kh/ai-seminar-series-1/

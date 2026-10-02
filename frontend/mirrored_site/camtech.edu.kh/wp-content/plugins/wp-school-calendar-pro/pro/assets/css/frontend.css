@@ -1,0 +1,687 @@
+/* ----- Loading Panel ----- */
+
+.wpsc-loading-panel {
+    position: relative;
+    background: #fff;
+    padding: 20px 30px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ----- Navigation Button ----- */
+
+#wpsc-block-calendar button.wpsc-button {
+    background: #f7f7f7;
+    color: #333;
+    padding: 4px 10px;
+    text-transform: none;
+    text-decoration: none;
+    width: auto;
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.4;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    vertical-align: middle;
+    letter-spacing: normal;
+}
+
+#wpsc-block-calendar button.wpsc-button:hover,
+#wpsc-block-calendar button.wpsc-button:active,
+#wpsc-block-calendar button.wpsc-button:focus {
+    background: #f5f5f5;
+    text-decoration: none;
+}
+
+#wpsc-block-calendar button.wpsc-button:before,
+#wpsc-block-calendar button.wpsc-button:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "dashicons";
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+    position: relative;
+    width: 16px;
+    color: #333;
+    outline: none;
+}
+
+#wpsc-block-calendar .wpsc-button-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+/* ----- Today Navigation ----- */
+
+#wpsc-block-calendar .wpsc-today-section {
+    position: relative;
+    margin-right: 5px;
+}
+
+#wpsc-block-calendar button.wpsc-today-button {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+}
+
+/* ----- Prev/Next Navigation ----- */
+
+#wpsc-block-calendar .wpsc-prevnext-section {
+    position: relative;
+    margin-right: 5px;
+}
+
+#wpsc-block-calendar button.wpsc-prevnext-button {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+    margin-right: 5px;
+}
+
+#wpsc-block-calendar button.wpsc-prevnext-button:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "dashicons";
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+    position: relative;
+    color: #333;
+    outline: none;
+}
+
+#wpsc-block-calendar button.wpsc-prev-button:after {
+    content: "\f341";
+}
+
+#wpsc-block-calendar button.wpsc-next-button:after {
+    content: "\f345";
+}
+
+/* ----- Year Range Navigation ----- */
+
+#wpsc-block-calendar .wpsc-year-range-section {
+    position: relative;
+}
+
+#wpsc-block-calendar .wpsc-year-range-selected {
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+
+#wpsc-block-calendar button.wpsc-year-range-selected-button {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+}
+
+#wpsc-block-calendar button.wpsc-year-range-selected-button:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "dashicons";
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+    position: relative;
+    width: 12px;
+    color: #333;
+    outline: none;
+    content: "\f140";
+    margin-left: 5px;
+}
+
+#wpsc-block-calendar .wpsc-year-range-items {
+    display: none;
+    position: absolute;
+    width: auto;
+    min-width: 100px;
+    left: 0;
+    top: calc(100% + 2px);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(27,31,35,.15);
+    border-radius: 4px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    padding: 0;
+    z-index: 1000;
+}
+
+#wpsc-block-calendar .wpsc-year-range-item-button {
+    padding: 6px 10px;
+    display: block;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    white-space: nowrap;
+    color: #333;
+}
+
+#wpsc-block-calendar .wpsc-year-range-item-button:hover {
+    background: #f9f9f9;
+    color: #333;
+}
+
+
+/* ----- Month Range Navigation ----- */
+
+#wpsc-block-calendar .wpsc-month-range-section {
+    position: relative;
+}
+
+#wpsc-block-calendar .wpsc-month-range-selected {
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+
+#wpsc-block-calendar button.wpsc-month-range-selected-button {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+}
+
+#wpsc-block-calendar button.wpsc-month-range-selected-button:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "dashicons";
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+    position: relative;
+    width: 12px;
+    color: #333;
+    outline: none;
+    content: "\f140";
+    margin-left: 5px;
+}
+
+#wpsc-block-calendar .wpsc-month-range-items {
+    display: none;
+    position: absolute;
+    width: auto;
+    min-width: 120px;
+    left: 0;
+    top: calc(100% + 2px);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(27,31,35,.15);
+    border-radius: 4px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    padding: 0;
+    z-index: 1000;
+}
+
+#wpsc-block-calendar .wpsc-month-range-item-button {
+    padding: 6px 10px;
+    display: block;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    white-space: nowrap;
+    color: #333;
+}
+
+#wpsc-block-calendar .wpsc-month-range-item-button:hover {
+    background: #f9f9f9;
+    color: #333;
+}
+
+
+/* ----- Filter Navigation ----- */
+
+#wpsc-block-calendar .wpsc-filter-section {
+    position: relative;
+    color: #333;
+}
+
+#wpsc-block-calendar button.wpsc-filter-button {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+}
+
+#wpsc-block-calendar .wpsc-filter-button:before {
+    content: "\f536";
+    margin-right: 10px;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__category-menus {
+    position: absolute;
+    width: auto;
+    min-width: 300px;
+    left: 0;
+    top: calc(100% + 2px);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(27,31,35,.15);
+    border-radius: 4px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    padding: 15px 20px;
+    z-index: 1000;
+    display: none;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__heading {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__category-menus ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__category-menus li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__category-menus li label {
+    cursor: pointer;
+    display: block;
+    white-space: nowrap;
+    padding: 5px 0;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #333;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__category-menus li input[type="checkbox"] {
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 16px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 16px;
+    min-width: 16px;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: .05s border-color ease-in-out;
+}
+
+#wpsc-block-calendar .wpsc-filter-section__category-menus li input[type="checkbox"]:checked:before {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    font: normal 21px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f147";
+    margin: -3px 0 0 -4px;
+    color: #333;
+}
+
+#wpsc-block-calendar .wpsc-filter-num {
+    margin-left: 7px;
+}
+
+#wpsc-block-calendar .wpsc-apply-button,
+#wpsc-block-calendar .wpsc-apply-button:hover {
+    background: #279f43;
+    color: #333;
+    border-color: rgba(27,31,35,.5);
+}
+
+#wpsc-block-calendar .wpsc-filter-selected {
+    margin: 10px 0;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected ul {
+    margin: 0;
+    padding: 0;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected li {
+    margin: 0 5px 5px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected .wpsc-clear-filter-item {
+    padding: 5px 10px;
+    background: #ddd;
+    color: #000;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: none;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected .wpsc-clear-filter-item:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected .wpsc-clear-filter-item:after {
+    content: "\f335";
+    margin-left: 10px;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected .wpsc-clear-filters {
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 1.5;
+    box-shadow: none;
+}
+
+#wpsc-block-calendar .wpsc-filter-selected .wpsc-clear-filters:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* ----- Download Navigation ----- */
+
+#wpsc-block-calendar .wpsc-download-section {
+    position: relative;
+    margin-left: auto;
+    margin-right: 5px;
+    color: #333;
+}
+
+#wpsc-block-calendar button.wpsc-download-navigation-icon {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+}
+
+#wpsc-block-calendar button.wpsc-download-navigation-icon:before {
+    content: "\f316";
+}
+
+#wpsc-block-calendar .wpsc-download-menus {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: calc(100% + 2px);
+    right: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(27,31,35,.15);
+    border-radius: 4px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    display: none;
+    padding: 0;
+    z-index: 1000;
+}
+
+#wpsc-block-calendar .wpsc-download-menus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#wpsc-block-calendar .wpsc-download-menu-item {
+    border-bottom: 1px solid #eee;
+    width: auto;
+    display: block;
+}
+
+#wpsc-block-calendar .wpsc-download-menu-item form {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: auto;
+}
+
+#wpsc-block-calendar .wpsc-download-menu-item:last-child {
+    border: none;
+}
+
+#wpsc-block-calendar .wpsc-download-menu-button:not(.wpsc-button) {
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    color: #000;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    width: auto;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.4;
+    cursor: pointer;
+    white-space: nowrap;
+    display: block;
+    box-shadow: none;
+}
+
+#wpsc-block-calendar .wpsc-download-menu-button:not(.wpsc-button):hover {
+    background: #f9f9f9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* ----- Subscribe Navigation ----- */
+
+#wpsc-block-calendar .wpsc-subscribe-section {
+    position: relative;
+    color: #333;
+}
+
+#wpsc-block-calendar button.wpsc-subscribe-button {
+    background-color: #e9ecef;
+    border-color: rgba(27,31,35,.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27,31,35,.15);
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel-container {
+    position: absolute;
+    width: auto;
+    min-width: 400px;
+    right: 0;
+    top: calc(100% + 2px);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(27,31,35,.15);
+    border-radius: 4px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+    padding: 10px 15px;
+    z-index: 1000;
+    display: none;
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel__heading {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel__desc {
+    margin: 10px 0 20px;
+    font-size: 13px;
+    line-height: 1.6;
+    display: none;
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel__field {
+    margin: 10px 0;
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel__navigation {
+    margin: 10px 0;
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel__help-toggle {
+    
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel__help-toggle:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "dashicons";
+    font-size: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+    position: relative;
+    width: 16px;
+    color: #333;
+    outline: none;
+    content: "\f223";
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel-url {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 5px 10px;
+    letter-spacing: normal;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #d1d5da;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+}
+
+#wpsc-block-calendar .wpsc-subscribe-panel-navigation-button-copy,
+#wpsc-block-calendar .wpsc-subscribe-panel-navigation-button-copy:hover {
+    background: #279f43;
+    color: #333;
+    border-color: rgba(27,31,35,.5);
+}
+
+/* ----- Important Date Tooltip ----- */
+
+.wpsc-important-date-tooltip {
+    cursor: pointer;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-loading {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-container {
+    padding: 10px 5px;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-item {
+    padding: 0 0 0 5px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-item:last-child {
+    margin-bottom: 0;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-item-inner {
+    padding: 10px;
+    position: relative;
+}
+
+.tooltipster-sidetip.tooltipster-borderless .wpsc-tooltip-item-inner {
+    background: #333;
+    color: #fff;
+}
+
+.tooltipster-sidetip.tooltipster-light .wpsc-tooltip-item-inner {
+    background: #ddd;
+    color: #333;
+}
+
+.tooltipster-sidetip.tooltipster-noir .wpsc-tooltip-item-inner {
+    background: #eee;
+    color: #333;
+}
+
+.tooltipster-sidetip.tooltipster-punk .wpsc-tooltip-item-inner {
+    background: #333;
+    color: #fff;
+}
+
+.tooltipster-sidetip.tooltipster-shadow .wpsc-tooltip-item-inner {
+    background: #eee;
+    color: #666;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-date {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.tooltipster-school-calendar .wpsc-tooltip-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}

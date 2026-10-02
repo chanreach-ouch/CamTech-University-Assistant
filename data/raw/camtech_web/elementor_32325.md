@@ -1,0 +1,4 @@
+CamTech University is thrilled to announce the signing ceremony of a Memorandum of Understanding (MoU) with The Liger Charitable Foundation, which took place on September 7, 2023, at CamTech University. This MoU aims to establish collaboration and support between the two institutions in various areas such as research activities, student internships, community engagement, exchange workshops, laboratories, and co-organize educational fairs and events. The MoU also involves providing beneficial online or physical seminars, workshops, and special guest lectures for staff and students at CamTech University and Liger Leadership Academy (LLA), as well as encouraging students to participate in exposure visits, campus tours, and joint study visits.
+
+---
+Source: https://camtech.edu.kh/elementor-32325/

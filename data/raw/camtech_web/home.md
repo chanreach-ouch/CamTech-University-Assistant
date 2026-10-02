@@ -1,0 +1,4 @@
+Home Apply for Admissions Please register with us today to get a world-class education with affordable fees at your doorstep. We are accepting national and international applicants with any background. Apply now CamTech Class of 2025: The First Graduation CamTech and E-GetS Sign MOU on Strategic Partnership Congratulations Tara Leakhena: Selected for Acsenda Exchange Program in Canada! CamTech 's Global Leap: Student Doing Internships at Windesheim University of Applied Science, Holland Prof Dr Sothy Khieng Invited to Present at 11th Nishan Forum on World Civilizations in Qufu, China CamTech Delegation Meets Deputy Prime Minister and Minister of Education, Youth, and Sport CamTech & Concordia Sign Groundbreaking Higher Education MoU Faculties Engineering Arts, Humanities and Social Sciences Business and Management Applied Science Sustainable Built Environment Admission Information
+
+---
+Source: https://camtech.edu.kh/

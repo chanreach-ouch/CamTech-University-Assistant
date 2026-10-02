@@ -1,0 +1,6 @@
+The Sustainable Development Solutions Network (SDSN) was commissioned by UN Secretary-General Ban Ki-moon in 2012 to mobilise scientific and technical expertise from academia, civil society, and the private sector to support practical problem solving for sustainable development at local, national, and global scales. The SDSN operates national and regional networks of knowledge institutions, solution-focused thematic networks, and is building the SDG Academy, an online university for sustainable development. www.unsdsn.org 
+
+CamTech is proud to be part of the Sustainable Development Solutions Network (SDSN), the world’s largest knowledge network for the UN Sustainable Development Goals (SDGs). On May 15th, CamTech’s management team participated in the 2024 UNSDSN University President Meeting, chaired by Professor Jeffrey Sachs. This virtual high-level meeting brought together University Leaders, representatives from the UN and Governments, along with sustainability experts from over 100 organizations across Asia and beyond. The meeting focused on the crucial role of higher education in promoting sustainable development.
+
+---
+Source: https://camtech.edu.kh/the-sustainable-development-solutions-network-sdsn/

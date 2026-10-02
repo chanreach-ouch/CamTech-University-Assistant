@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic-settings
+cohere
+groq
+google-genai
+requests>=2.31.0
+tiktoken
+pymupdf
+pgvector
+rank_bm25
+pydantic>=2.0.0

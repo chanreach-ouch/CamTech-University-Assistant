@@ -1,0 +1,4 @@
+On May 23, 2022, a CamTech team, led by Dr. Kieng Sothy, CamTech president attended the opening ceremony of the project “Strengthening Technology, Science and Innovation” in Kampot Province. This event was co-organized by the Ministry of Industry, Science, Technology and Innovation and the Embassy of India in Cambodia. The event was organized in order to enhance the understanding and strengthen human resource development in STEM, which is in line with the vision of the Royal Government of Cambodia to turn Cambodia into an upper-middle-income country by 2030 and a developed country in 2050. Over 700 teachers, students, and leaders from relevant departments were invited to join this event.
+
+---
+Source: https://camtech.edu.kh/camtech-president-attended-the-opening-ceremony-of-the-project-strengthening-technology-science-and-innovation-in-kampot-province/
