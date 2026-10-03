@@ -758,3 +758,166 @@ ConnectionResetError: [WinError 10054] An existing connection was forcibly close
 2026-10-04 02:50:54,613 [INFO] Trace e0f28210-b049-4848-9c5e-6743b3952849 | STARTED: output_guard
 2026-10-04 02:50:54,613 [INFO] Trace e0f28210-b049-4848-9c5e-6743b3952849 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
 2026-10-04 02:50:54,621 [INFO] Trace e0f28210-b049-4848-9c5e-6743b3952849 | ENDED: total_request | Duration: 3.0115s
+2026-10-04 03:06:21,408 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: total_request
+2026-10-04 03:06:21,408 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: input_guard
+2026-10-04 03:06:21,409 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: input_guard | Duration: 0.0005s | Data: {'safe': True}
+2026-10-04 03:06:21,409 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: memory_rewrite
+2026-10-04 03:06:21,431 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: memory_rewrite | Duration: 0.0222s | Data: {'original': 'What majors and degree programs are offered at CamTech?', 'rewritten': 'What majors and degree programs are offered at CamTech?'}
+2026-10-04 03:06:21,431 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: router
+2026-10-04 03:06:21,431 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 03:06:21,979 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: retrieval
+2026-10-04 03:06:24,330 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 03:06:24,405 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: retrieval | Duration: 2.4256s | Data: {'num_docs': 5}
+2026-10-04 03:06:24,405 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: llm_generation
+2026-10-04 03:06:25,431 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 03:06:25,445 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: llm_generation | Duration: 1.0400s | Data: {'tokens': 2498}
+2026-10-04 03:06:25,445 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | STARTED: output_guard
+2026-10-04 03:06:25,445 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:06:25,456 [INFO] Trace 54edd4ca-2d7a-4f07-b2a9-79d84be80d45 | ENDED: total_request | Duration: 4.0477s
+2026-10-04 03:38:33,418 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: total_request
+2026-10-04 03:38:33,418 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: input_guard
+2026-10-04 03:38:33,418 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:38:33,418 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: memory_rewrite
+2026-10-04 03:38:33,442 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: memory_rewrite | Duration: 0.0241s | Data: {'original': 'What are the tuition fees for undergraduate programs?', 'rewritten': 'What are the tuition fees for undergraduate programs?'}
+2026-10-04 03:38:33,445 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: router
+2026-10-04 03:38:33,445 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: router | Duration: 0.0026s | Data: {'route': 'rag'}
+2026-10-04 03:38:33,951 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: retrieval
+2026-10-04 03:38:36,108 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 03:38:36,209 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: retrieval | Duration: 2.2578s | Data: {'num_docs': 5}
+2026-10-04 03:38:36,209 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: llm_generation
+2026-10-04 03:38:37,851 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 03:38:37,877 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: llm_generation | Duration: 1.6684s | Data: {'tokens': 2972}
+2026-10-04 03:38:37,877 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | STARTED: output_guard
+2026-10-04 03:38:37,877 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:38:37,884 [INFO] Trace 7dd6d91e-5115-4f27-88fb-909c08ba981a | ENDED: total_request | Duration: 4.4655s
+2026-10-04 03:53:46,031 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: total_request
+2026-10-04 03:53:46,032 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: input_guard
+2026-10-04 03:53:46,032 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:53:46,032 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: memory_rewrite
+2026-10-04 03:53:46,048 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: memory_rewrite | Duration: 0.0162s | Data: {'original': 'How can I apply for scholarships at CamTech University?', 'rewritten': 'How can I apply for scholarships at CamTech University?'}
+2026-10-04 03:53:46,048 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: router
+2026-10-04 03:53:46,048 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 03:53:46,443 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: retrieval
+2026-10-04 03:53:48,145 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 03:53:48,254 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: retrieval | Duration: 1.8105s | Data: {'num_docs': 5}
+2026-10-04 03:53:48,254 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: llm_generation
+2026-10-04 03:53:49,723 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 03:53:49,724 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: llm_generation | Duration: 1.4701s | Data: {'tokens': 2558}
+2026-10-04 03:53:49,724 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | STARTED: output_guard
+2026-10-04 03:53:49,724 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:53:49,731 [INFO] Trace f2a5e4b4-fa0b-4498-b60a-6de859baeab7 | ENDED: total_request | Duration: 3.7001s
+2026-10-04 03:55:52,864 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: total_request
+2026-10-04 03:55:52,864 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: input_guard
+2026-10-04 03:55:52,864 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:55:52,864 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: memory_rewrite
+2026-10-04 03:55:52,877 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: memory_rewrite | Duration: 0.0128s | Data: {'original': 'What are the tuition fees for undergraduate programs?', 'rewritten': 'What are the tuition fees for undergraduate programs?'}
+2026-10-04 03:55:52,878 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: router
+2026-10-04 03:55:52,878 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 03:55:53,316 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: retrieval
+2026-10-04 03:55:54,755 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 03:55:54,858 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: retrieval | Duration: 1.5412s | Data: {'num_docs': 5}
+2026-10-04 03:55:54,858 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: llm_generation
+2026-10-04 03:55:55,904 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 03:55:55,904 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: llm_generation | Duration: 1.0455s | Data: {'tokens': 2974}
+2026-10-04 03:55:55,906 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | STARTED: output_guard
+2026-10-04 03:55:55,906 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:55:55,916 [INFO] Trace 43774295-4429-4c7b-bc6b-040a5bc9a8ec | ENDED: total_request | Duration: 3.0528s
+2026-10-04 03:56:35,556 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: total_request
+2026-10-04 03:56:35,556 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: input_guard
+2026-10-04 03:56:35,556 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:56:35,556 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: memory_rewrite
+2026-10-04 03:56:36,532 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 03:56:36,541 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: memory_rewrite | Duration: 0.9850s | Data: {'original': 'I wanna know about data science and ai', 'rewritten': 'What are the tuition fees for the Data Science and Artificial Intelligence undergraduate program at CamTech University?'}
+2026-10-04 03:56:36,541 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: router
+2026-10-04 03:56:36,541 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 03:56:36,952 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: retrieval
+2026-10-04 03:56:38,376 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 03:56:38,482 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: retrieval | Duration: 1.5296s | Data: {'num_docs': 5}
+2026-10-04 03:56:38,482 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: llm_generation
+2026-10-04 03:56:39,254 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 03:56:39,258 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: llm_generation | Duration: 0.7755s | Data: {'tokens': 3040}
+2026-10-04 03:56:39,258 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | STARTED: output_guard
+2026-10-04 03:56:39,258 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 03:56:39,265 [INFO] Trace addc9db2-0c38-4f95-95b9-2431df738eba | ENDED: total_request | Duration: 3.7090s
+2026-10-04 04:00:01,340 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: total_request
+2026-10-04 04:00:01,340 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: input_guard
+2026-10-04 04:00:01,341 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:00:01,341 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: memory_rewrite
+2026-10-04 04:00:01,364 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: memory_rewrite | Duration: 0.0231s | Data: {'original': 'What majors and degree programs are offered at CamTech?', 'rewritten': 'What majors and degree programs are offered at CamTech?'}
+2026-10-04 04:00:01,364 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: router
+2026-10-04 04:00:01,365 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: router | Duration: 0.0006s | Data: {'route': 'rag'}
+2026-10-04 04:00:01,820 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: retrieval
+2026-10-04 04:00:03,588 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 04:00:03,723 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: retrieval | Duration: 1.9028s | Data: {'num_docs': 5}
+2026-10-04 04:00:03,723 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: llm_generation
+2026-10-04 04:00:04,818 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:00:04,820 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: llm_generation | Duration: 1.0969s | Data: {'tokens': 2498}
+2026-10-04 04:00:04,820 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | STARTED: output_guard
+2026-10-04 04:00:04,820 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:00:04,832 [INFO] Trace 375d0d71-0474-4ed3-b447-9f1b2fde3657 | ENDED: total_request | Duration: 3.4915s
+2026-10-04 04:00:23,672 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: total_request
+2026-10-04 04:00:23,672 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: input_guard
+2026-10-04 04:00:23,672 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:00:23,672 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: memory_rewrite
+2026-10-04 04:00:24,682 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:00:24,692 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: memory_rewrite | Duration: 1.0199s | Data: {'original': 'tell me about data science and ai ,bachelor degree', 'rewritten': "What are the details of the Bachelor's degree program in Data Science and Artificial Intelligence at CamTech University?"}
+2026-10-04 04:00:24,693 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: router
+2026-10-04 04:00:24,693 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 04:00:25,172 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: retrieval
+2026-10-04 04:00:26,830 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 04:00:26,939 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: retrieval | Duration: 1.7664s | Data: {'num_docs': 5}
+2026-10-04 04:00:26,939 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: llm_generation
+2026-10-04 04:00:28,367 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:00:28,368 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: llm_generation | Duration: 1.4295s | Data: {'tokens': 3163}
+2026-10-04 04:00:28,368 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | STARTED: output_guard
+2026-10-04 04:00:28,368 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:00:28,382 [INFO] Trace 5843c947-e03a-4f91-a203-39f4969ac760 | ENDED: total_request | Duration: 4.7103s
+2026-10-04 04:01:03,792 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: total_request
+2026-10-04 04:01:03,792 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: input_guard
+2026-10-04 04:01:03,792 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: input_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:01:03,792 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: memory_rewrite
+2026-10-04 04:01:03,809 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: memory_rewrite | Duration: 0.0167s | Data: {'original': 'what course that I have to learn if I apply for that major', 'rewritten': 'what course that I have to learn if I apply for that major'}
+2026-10-04 04:01:03,809 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: router
+2026-10-04 04:01:03,809 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 04:01:04,262 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: retrieval
+2026-10-04 04:01:05,827 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 04:01:05,955 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: retrieval | Duration: 1.6943s | Data: {'num_docs': 5}
+2026-10-04 04:01:05,955 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: llm_generation
+2026-10-04 04:01:08,405 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:01:08,406 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: llm_generation | Duration: 2.4514s | Data: {'tokens': 3001}
+2026-10-04 04:01:08,407 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | STARTED: output_guard
+2026-10-04 04:01:08,407 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:01:08,416 [INFO] Trace 56f0b393-314e-4b07-b014-32a372f22c19 | ENDED: total_request | Duration: 4.6240s
+2026-10-04 04:01:35,419 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: total_request
+2026-10-04 04:01:35,420 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: input_guard
+2026-10-04 04:01:35,420 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: input_guard | Duration: 0.0010s | Data: {'safe': True}
+2026-10-04 04:01:35,420 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: memory_rewrite
+2026-10-04 04:01:36,360 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:01:36,371 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: memory_rewrite | Duration: 0.9507s | Data: {'original': 'how much for this data science bachelor degree', 'rewritten': "How much does the Bachelor's degree program in Data Science and Artificial Intelligence cost?"}
+2026-10-04 04:01:36,371 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: router
+2026-10-04 04:01:36,372 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: router | Duration: 0.0012s | Data: {'route': 'rag'}
+2026-10-04 04:01:36,800 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: retrieval
+2026-10-04 04:01:38,511 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 04:01:38,637 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: retrieval | Duration: 1.8366s | Data: {'num_docs': 5}
+2026-10-04 04:01:38,637 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: llm_generation
+2026-10-04 04:01:39,379 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:01:39,380 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: llm_generation | Duration: 0.7432s | Data: {'tokens': 2944}
+2026-10-04 04:01:39,380 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | STARTED: output_guard
+2026-10-04 04:01:39,380 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:01:39,390 [INFO] Trace 6dc31034-51ec-445c-8787-ae4dda87936b | ENDED: total_request | Duration: 3.9710s
+2026-10-04 04:02:02,314 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: total_request
+2026-10-04 04:02:02,314 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: input_guard
+2026-10-04 04:02:02,315 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: input_guard | Duration: 0.0006s | Data: {'safe': True}
+2026-10-04 04:02:02,315 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: memory_rewrite
+2026-10-04 04:02:02,327 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: memory_rewrite | Duration: 0.0127s | Data: {'original': 'tell me about the history about camtech', 'rewritten': 'tell me about the history about camtech'}
+2026-10-04 04:02:02,327 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: router
+2026-10-04 04:02:02,328 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: router | Duration: 0.0000s | Data: {'route': 'rag'}
+2026-10-04 04:02:02,675 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: retrieval
+2026-10-04 04:02:08,411 [INFO] HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2026-10-04 04:02:08,534 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: retrieval | Duration: 5.8591s | Data: {'num_docs': 5}
+2026-10-04 04:02:08,535 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: llm_generation
+2026-10-04 04:02:09,639 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-04 04:02:09,641 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: llm_generation | Duration: 1.1060s | Data: {'tokens': 2971}
+2026-10-04 04:02:09,642 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | STARTED: output_guard
+2026-10-04 04:02:09,642 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: output_guard | Duration: 0.0000s | Data: {'safe': True}
+2026-10-04 04:02:09,652 [INFO] Trace e422c486-69af-48b7-83d9-f7520d959127 | ENDED: total_request | Duration: 7.3381s

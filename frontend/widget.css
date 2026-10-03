@@ -279,11 +279,12 @@
 /* --- Message Bubbles --- */
 .chat-msg {
     max-width: 86% !important;
-    padding: 12px 15px !important;
+    padding: 12px 16px !important;
     font-size: 13.5px !important;
+    font-weight: 400 !important;
     line-height: 1.55 !important;
     word-break: break-word !important;
-    font-family: inherit !important;
+    font-family: var(--ct-font-family) !important;
     box-sizing: border-box !important;
     animation: fadeInBubble 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
 }
@@ -296,6 +297,7 @@
 .chat-msg.user {
     background: linear-gradient(135deg, var(--ct-primary) 0%, var(--ct-primary-dark) 100%) !important;
     color: #ffffff !important;
+    font-weight: 400 !important;
     align-self: flex-end !important;
     border-radius: var(--ct-radius-bubble) var(--ct-radius-bubble) 4px var(--ct-radius-bubble) !important;
     box-shadow: 0 3px 10px rgba(16, 43, 77, 0.15) !important;
@@ -303,7 +305,8 @@
 
 .chat-msg.bot {
     background: #ffffff !important;
-    color: var(--ct-text-dark) !important;
+    color: #334155 !important;
+    font-weight: 400 !important;
     align-self: flex-start !important;
     border-radius: var(--ct-radius-bubble) var(--ct-radius-bubble) var(--ct-radius-bubble) 4px !important;
     box-shadow: var(--ct-shadow-sm) !important;
@@ -313,6 +316,8 @@
 /* --- Markdown Typography Inside Bot Messages --- */
 .chat-msg.bot p {
     margin: 0 0 8px 0 !important;
+    font-weight: 400 !important;
+    color: #334155 !important;
 }
 
 .chat-msg.bot p:last-child {
@@ -320,7 +325,7 @@
 }
 
 .chat-msg.bot strong {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     color: var(--ct-primary-dark) !important;
 }
 
@@ -333,6 +338,8 @@
 .chat-msg.bot li {
     margin-bottom: 4px !important;
     line-height: 1.5 !important;
+    font-weight: 400 !important;
+    color: #334155 !important;
 }
 
 .chat-msg.bot h1, 
@@ -341,7 +348,7 @@
 .chat-msg.bot h4 {
     margin: 10px 0 6px 0 !important;
     color: var(--ct-primary-dark) !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     line-height: 1.3 !important;
 }
 
@@ -450,7 +457,8 @@
     border-radius: 20px !important;
     outline: none !important;
     font-size: 13.5px !important;
-    font-family: inherit !important;
+    font-family: var(--ct-font-family) !important;
+    font-weight: 400 !important;
     color: var(--ct-text-dark) !important;
     background-color: #f8fafc !important;
     transition: all 0.2s ease !important;
