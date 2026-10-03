@@ -149,21 +149,11 @@
 }
 
 .chat-header-status {
-    font-size: 11px !important;
+    font-size: 11.5px !important;
     color: #cbd5e1 !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 5px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.01em !important;
     margin-top: 2px !important;
-}
-
-.status-dot {
-    width: 7px !important;
-    height: 7px !important;
-    background-color: #22c55e !important;
-    border-radius: 50% !important;
-    display: inline-block !important;
-    box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.3) !important;
 }
 
 .chat-header-actions {
@@ -226,7 +216,7 @@
 .chat-welcome-card {
     background: #ffffff !important;
     border: 1px solid var(--ct-border) !important;
-    border-radius: 14px !important;
+    border-radius: 12px !important;
     padding: 16px !important;
     box-shadow: var(--ct-shadow-sm) !important;
     text-align: left !important;
@@ -234,13 +224,12 @@
 }
 
 .chat-welcome-title {
-    font-size: 14px !important;
+    font-size: 13.5px !important;
     font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.02em !important;
     color: var(--ct-primary-dark) !important;
     margin-bottom: 6px !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 6px !important;
 }
 
 .chat-welcome-desc {
@@ -257,9 +246,9 @@
 }
 
 .prompt-chip {
-    background: #f1f5f9 !important;
+    background: #ffffff !important;
     border: 1px solid #e2e8f0 !important;
-    border-radius: 10px !important;
+    border-radius: 8px !important;
     padding: 9px 12px !important;
     font-size: 12.5px !important;
     color: var(--ct-primary-dark) !important;
@@ -275,10 +264,16 @@
 }
 
 .prompt-chip:hover {
-    background: #e2e8f0 !important;
-    border-color: #cbd5e1 !important;
-    transform: translateX(3px) !important;
+    background: #f8fafc !important;
+    border-color: var(--ct-primary) !important;
     color: var(--ct-primary) !important;
+    transform: translateX(3px) !important;
+}
+
+.chip-arrow {
+    color: var(--ct-accent) !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
 }
 
 /* --- Message Bubbles --- */

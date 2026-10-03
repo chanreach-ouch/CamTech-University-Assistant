@@ -41,9 +41,7 @@
                 </div>
                 <div class="chat-header-titles">
                     <span class="chat-header-title">CamTech Assistant</span>
-                    <span class="chat-header-status">
-                        <span class="status-dot"></span> Online • Grounded
-                    </span>
+                    <span class="chat-header-status">Admissions & Academic Advisory</span>
                 </div>
             </div>
             <div class="chat-header-actions">
@@ -89,24 +87,22 @@
     function renderWelcome() {
         msgs.innerHTML = `
             <div class="chat-welcome-card">
-                <div class="chat-welcome-title">
-                    <span>👋</span> Welcome to CamTech University
-                </div>
+                <div class="chat-welcome-title">CamTech University Inquiry Desk</div>
                 <div class="chat-welcome-desc">
-                    I can assist you with academic majors, entrance exams, scholarship opportunities, and tuition fees. What would you like to know?
+                    Official advisory service for undergraduate and graduate programs, entrance exams, scholarships, and tuition fee schedules.
                 </div>
                 <div class="chat-prompt-chips">
                     <button class="prompt-chip" data-prompt="What majors and degree programs are offered at CamTech?">
-                        🎓 What majors are offered?
+                        <span class="chip-arrow">→</span> What majors are offered?
                     </button>
                     <button class="prompt-chip" data-prompt="How can I apply for scholarships at CamTech University?">
-                        💰 Scholarship opportunities & how to apply
+                        <span class="chip-arrow">→</span> Scholarship opportunities & how to apply
                     </button>
                     <button class="prompt-chip" data-prompt="What is the admission and entrance exam process?">
-                        📝 Admission & entrance exam process
+                        <span class="chip-arrow">→</span> Admission & entrance exam process
                     </button>
                     <button class="prompt-chip" data-prompt="What are the tuition fees for undergraduate programs?">
-                        💵 Tuition fees overview
+                        <span class="chip-arrow">→</span> Tuition fees overview
                     </button>
                 </div>
             </div>
