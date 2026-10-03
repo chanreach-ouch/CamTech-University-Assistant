@@ -64,9 +64,10 @@ def chat_endpoint(req: ChatRequest):
     else:
         # RAG Pipeline
         tracer.start_span("retrieval")
-        docs = retrieve(query, top_k=3)
+        docs = retrieve(query, top_k=5)
         # Assuming chunk_filter logic is done inside retriever or here
-        sources = [d.get("metadata", {}).get("source_file", d.get("metadata", {}).get("source", "unknown")) for d in docs]
+        raw_sources = [d.get("metadata", {}).get("source_file", d.get("metadata", {}).get("source", "unknown")) for d in docs]
+        sources = list(dict.fromkeys(raw_sources)) # deduplicate while preserving order
 
         sources_text = ""
         for d in docs:
