@@ -30,7 +30,7 @@ class GroqClient(LLMProvider):
         formatted_messages.extend(messages)
 
         response = self.client.chat.completions.create(
-            model="llama-3.1-8b-instant",  # Or another available model
+            model="qwen/qwen3.8-27b",  # Verified available Groq model
             messages=formatted_messages,
             max_tokens=max_tokens,
             temperature=0.0,

@@ -66,11 +66,14 @@ def chat_endpoint(req: ChatRequest):
         tracer.start_span("retrieval")
         docs = retrieve(query, top_k=3)
         # Assuming chunk_filter logic is done inside retriever or here
-        sources = [d["metadata"]["source_file"] for d in docs]
+        sources = [d.get("metadata", {}).get("source_file", d.get("metadata", {}).get("source", "unknown")) for d in docs]
 
         sources_text = ""
         for d in docs:
-            sources_text += f"\n[Doc: {d['metadata']['source_file']}, Year: {d['metadata']['academic_year']}]\n{d['text']}\n"
+            meta = d.get("metadata", {})
+            source = meta.get("source_file", meta.get("source", "unknown"))
+            year = meta.get("academic_year", meta.get("year", "unknown"))
+            sources_text += f"\n[Doc: {source}, Year: {year}]\n{d['text']}\n"
 
         tracer.end_span("retrieval", {"num_docs": len(docs)})
 

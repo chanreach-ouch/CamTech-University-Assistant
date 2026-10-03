@@ -5,8 +5,16 @@ from app.memory.models import Base, Thread, Message
 import uuid
 
 engine = create_engine(settings.DATABASE_URL)
-Base.metadata.create_all(bind=engine)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+
+def init_db():
+    """Call this at server startup, NOT at import time."""
+    from sqlalchemy import text
+    with engine.connect() as conn:
+        conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        conn.commit()
+    Base.metadata.create_all(bind=engine)
 
 
 class MemoryStore:

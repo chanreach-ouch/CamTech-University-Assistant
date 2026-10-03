@@ -37,7 +37,7 @@ def extract_markdown(file_path):
 
 def extract_pdf(file_path):
     try:
-        import fitz  # PyMuPDF
+        import pymupdf as fitz  # PyMuPDF (replaces deprecated fitz import)
 
         doc = fitz.open(file_path)
         text = ""
