@@ -20,7 +20,7 @@ def route_query(query: str):
                 "tool": "tuition",
                 "inputs": {"major": "Cyber Security"},
             }
-        return {"route": "tool", "tool": "tuition", "inputs": {"major": query}}
+        return {"route": "rag"}
 
     if "scholarship" in q_lower:
         if "women" in q_lower or "stem" in q_lower:
@@ -29,6 +29,12 @@ def route_query(query: str):
                 "tool": "scholarship",
                 "inputs": {"type": "STEM Women"},
             }
-        return {"route": "tool", "tool": "scholarship", "inputs": {"type": query}}
+        elif "merit" in q_lower:
+            return {
+                "route": "tool",
+                "tool": "scholarship",
+                "inputs": {"type": "Merit"},
+            }
+        return {"route": "rag"}
 
     return {"route": "rag"}

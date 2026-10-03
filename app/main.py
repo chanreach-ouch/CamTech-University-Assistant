@@ -28,22 +28,30 @@ app.include_router(chat.router, prefix="/api")
 app.include_router(health.router, prefix="/api")
 app.include_router(threads.router, prefix="/api")
 
-# Serve widget.js and widget.css from frontend/
-app.mount("/widget.js", StaticFiles(directory="frontend", html=False), name="widget_js")
-app.mount(
-    "/widget.css", StaticFiles(directory="frontend", html=False), name="widget_css"
-)
+from fastapi.responses import FileResponse
+
+@app.get("/widget.js")
+def get_widget_js():
+    return FileResponse("frontend/widget.js")
+
+@app.get("/widget.css")
+def get_widget_css():
+    return FileResponse("frontend/widget.css")
 
 # Serve mirrored site from frontend/mirrored_site/camtech.edu.kh
-if os.path.exists("frontend/mirrored_site"):
+if os.path.exists("frontend/mirrored_site/camtech.edu.kh"):
     from fastapi.responses import RedirectResponse
-
-    @app.get("/")
-    def read_root_redirect():
-        return RedirectResponse(url="/camtech.edu.kh/")
+    
+    @app.get("/camtech.edu.kh/")
+    def redirect_old_path():
+        return RedirectResponse(url="/")
+        
+    @app.get("/camtech.edu.kh")
+    def redirect_old_path_no_slash():
+        return RedirectResponse(url="/")
 
     app.mount(
-        "/", StaticFiles(directory="frontend/mirrored_site", html=True), name="frontend"
+        "/", StaticFiles(directory="frontend/mirrored_site/camtech.edu.kh", html=True), name="frontend"
     )
 else:
 
