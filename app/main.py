@@ -1,10 +1,20 @@
+from dotenv import load_dotenv
+
+load_dotenv()  # Load .env into os.environ BEFORE any app imports
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from app.routes import chat, health, threads
+from app.memory.store import init_db
 import os
 
 app = FastAPI(title="CamTech University Assistant")
+
+
+@app.on_event("startup")
+def on_startup():
+    init_db()
 
 app.add_middleware(
     CORSMiddleware,
