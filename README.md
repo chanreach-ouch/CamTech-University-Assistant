@@ -2,7 +2,12 @@
 
 An AI-powered RAG (Retrieval-Augmented Generation) assistant for CamTech University, designed to help students find information about admissions, tuition, scholarships, and academic rules.
 
-## Setup Instructions
+## Setup & Architecture Guides
+- **Teammate Overview & Code Guide:** See [TEAMMATE_GUIDE.md](TEAMMATE_GUIDE.md) for a complete explanation of `/app`, `/data`, `/frontend`, and the Hybrid RAG flow.
+- **In-Depth Technical Architecture:** See [PROJECT_EXPLANATION.md](PROJECT_EXPLANATION.md) for deep engineering rationale and system breakdowns.
+- **Runtime & Setup Guide:** See [RUNNING.md](RUNNING.md) for step-by-step setup, startup scripts, and evaluation benchmarks.
+
+Quick start:
 1. Copy `.env.example` to `.env` and fill in your API keys (`GROQ_API_KEY` for LLM, `COHERE_API_KEY` for embeddings).
 2. Start the PostgreSQL vector database using Docker:
    ```bash
@@ -14,7 +19,7 @@ An AI-powered RAG (Retrieval-Augmented Generation) assistant for CamTech Univers
    ```
 4. Start the FastAPI backend server:
    ```bash
-   uvicorn app.main:app --port 8000
+   uvicorn app.main:app --port 8000 --reload
    ```
 5. Open your browser and navigate to `http://localhost:8000/` to use the chatbot on the mirrored site.
 

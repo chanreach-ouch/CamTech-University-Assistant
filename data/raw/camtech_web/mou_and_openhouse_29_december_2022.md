@@ -4,7 +4,7 @@
 
 វគ្គសិក្សាថ្មីចាប់ផ្តើមនៅថ្ងៃទី៣០ ខែមករា ឆ្នាំ២០២៣។
 
-ដាក់ពាក្យចូលរៀនឥឡូវនេះតាមរយៈតំណលីង៖ http://form.jotform.com/212209108193449
+ដាក់ពាក្យចូលរៀនឥឡូវនេះតាមរយៈតំណលីង៖ https://docs.google.com/forms/d/e/1FAIpQLSf8jrvddpVqAgv11rkMdHgYisvnsivmWey1Veg8NfjRe7F6Pw/viewform
 
 © 2021 CamTech. All Rights Reserved
 

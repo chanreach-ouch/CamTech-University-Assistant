@@ -10,7 +10,8 @@ except ImportError:
 
 class GroqClient(LLMProvider):
     def __init__(self):
-        api_key = os.getenv("GROQ_API_KEY")
+        from app.config import settings
+        api_key = settings.GROQ_API_KEY or os.getenv("GROQ_API_KEY")
         if not api_key or api_key == "your-groq-key-here":
             self.client = None
         else:

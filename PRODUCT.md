@@ -23,7 +23,7 @@ Operates as a floating widget overlay on the mirrored CamTech University website
 
 ## Capabilities and Constraints
 - Real-time conversational AI chat powered by Groq LLM (`qwen/qwen3.8-27b`).
-- Dense vector retrieval via Cohere embeddings (`embed-english-v3.0`) over 1,412 indexed university document chunks in PostgreSQL.
+- Dense vector retrieval via Cohere embeddings (`embed-multilingual-v3.0`) over 1,412 indexed university document chunks in PostgreSQL.
 - Structured tool lookups for specific fees and scholarships from `fees.json`.
 - Keyword-based input guardrails to intercept prompt injections, jailbreaks, and harmful inputs.
 - Multi-turn conversational memory with session thread persistence.

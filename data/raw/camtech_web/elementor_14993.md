@@ -2,7 +2,7 @@ CamTech University usually encourages and provides support for students, especia
 
 Let’s listen to it together.
 
-Apply through the link: http://form.jotform.com/212209108193449
+Apply through the link: https://docs.google.com/forms/d/e/1FAIpQLSf8jrvddpVqAgv11rkMdHgYisvnsivmWey1Veg8NfjRe7F6Pw/viewform
 
 						
 © 2021 CamTech. All Rights Reserved

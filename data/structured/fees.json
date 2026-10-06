@@ -1,11 +1,118 @@
 {
-    "tuition": [
-        {"major": "Cyber Security", "fee_per_year": 4000, "currency": "USD"},
-        {"major": "Architecture", "fee_per_year": 4500, "currency": "USD"},
-        {"major": "Software Engineering", "fee_per_year": 4000, "currency": "USD"}
-    ],
+    "academic_year": "2024/2025",
+    "source": "CamTech Prospectus & Information Guide 2024/2025 (Page 11-12)",
+    "source_url": "https://heyzine.com/flip-book/c14349bd87.html",
+    "undergraduate": {
+        "administration_fee_per_year_usd": 200,
+        "terms_per_year": 3,
+        "faculties": [
+            {
+                "faculty": "Faculty of Engineering",
+                "majors": [
+                    "Cyber Security",
+                    "Data Science and Artificial Intelligence Engineering",
+                    "Robotics and Automation Engineering",
+                    "Software Engineering"
+                ],
+                "fee_per_term_usd": 1350,
+                "fee_per_year_usd": 4000,
+                "total_4_years_usd": 16000
+            },
+            {
+                "faculty": "Faculty of Sustainable Built Environment",
+                "majors": [
+                    "Architecture",
+                    "Interior Design",
+                    "Urban Planning",
+                    "Industrial Energy Management"
+                ],
+                "fee_per_term_usd": 1350,
+                "fee_per_year_usd": 4000,
+                "total_4_years_usd": 16000
+            },
+            {
+                "faculty": "Faculty of Arts, Humanities and Social Sciences",
+                "majors": [
+                    "Teaching English as a Second Language (TESOL)",
+                    "English for Business and Commerce",
+                    "Media and Communication Technology",
+                    "Educational Technology"
+                ],
+                "fee_per_term_usd": 1184,
+                "fee_per_year_usd": 3500,
+                "total_4_years_usd": 14000
+            },
+            {
+                "faculty": "Faculty of Business and Management",
+                "majors": [
+                    "Risk Management and Business Intelligence",
+                    "Innovation and Entrepreneurship",
+                    "Sports and Recreation Management",
+                    "Manufacturing Management"
+                ],
+                "fee_per_term_usd": 1184,
+                "fee_per_year_usd": 3500,
+                "total_4_years_usd": 14000
+            }
+        ],
+        "entrance_exams": [
+            {
+                "subject": "Mathematics",
+                "duration_minutes": 90
+            },
+            {
+                "subject": "English",
+                "duration_minutes": 60
+            },
+            {
+                "subject": "Interview",
+                "duration_minutes": "Variable"
+            }
+        ]
+    },
+    "graduate": {
+        "administration_fee_per_year_usd": 250,
+        "application_fee_usd": 30,
+        "contact": {
+            "name": "Dr. May Thu",
+            "role": "Assistant Dean of School of Graduate Studies",
+            "email": "may.thu@camtech.edu.kh",
+            "phone": "+85512699633"
+        },
+        "cambodian_students": {
+            "masters_per_term_usd": 1550,
+            "masters_per_year_usd": 4500,
+            "doctoral_per_term_usd": 1700,
+            "doctoral_per_year_usd": 5000
+        },
+        "international_students": {
+            "masters_per_year_usd": 5000,
+            "doctoral_per_year_usd": 6000
+        },
+        "programs": [
+            "Environmental Technology",
+            "Technology Management",
+            "Technology Governance",
+            "Data Science",
+            "Artificial Intelligence",
+            "Cyber Security",
+            "Industrial Technology",
+            "Agriculture Technology",
+            "Education Technology",
+            "Financial Technology",
+            "Science and Technology Studies"
+        ]
+    },
     "scholarships": [
-        {"type": "STEM Women", "coverage_percentage": 100, "conditions": "Maintain 3.0 GPA"},
-        {"type": "Merit", "coverage_percentage": 50, "conditions": "Top 10% in entrance exam"}
+        {
+            "type": "100% STEM Women",
+            "coverage_percentage": 100,
+            "conditions": "Maintain 3.0 GPA"
+        },
+        {
+            "type": "Merit Scholarship",
+            "coverage_percentage": 50,
+            "conditions": "Top 10% in entrance exam"
+        }
     ]
 }

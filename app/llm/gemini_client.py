@@ -11,7 +11,8 @@ except ImportError:
 
 class GeminiClient(LLMProvider):
     def __init__(self):
-        api_key = os.getenv("GEMINI_API_KEY")
+        from app.config import settings
+        api_key = settings.GEMINI_API_KEY or os.getenv("GEMINI_API_KEY")
         if not api_key or api_key == "your-gemini-key-here":
             self.client = None
         else:
